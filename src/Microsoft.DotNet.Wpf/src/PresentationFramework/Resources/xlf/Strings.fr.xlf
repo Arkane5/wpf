@@ -1519,7 +1519,7 @@
       </trans-unit>
       <trans-unit id="EnumeratorVersionChanged">
         <source>Collection was modified; enumeration operation may not execute.</source>
-        <target state="translated">La collection a été modifiée ; l'opération d'énumération peut ne pas s'exécuter.</target>
+        <target state="translated">La collection a été modifiée ; l'opération d'énumération ne peut pas s'exécuter.</target>
         <note />
       </trans-unit>
       <trans-unit id="Enumerator_VerifyContext">
@@ -1890,7 +1890,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="Generator_Readme4">
         <source>(The starred sources are considered more likely to be the cause of the problem.)</source>
-        <target state="translated">(Les sources en étoile sont considérées comme étant probablement la cause du problème.)</target>
+        <target state="translated">(Les sources avec une étoile sont considérées comme étant probablement la cause du problème.)</target>
         <note />
       </trans-unit>
       <trans-unit id="Generator_Readme5">
@@ -1975,7 +1975,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="GlyphsIndexRequiredWithinCluster">
         <source>Must have all glyph indices in a Glyphs cluster.</source>
-        <target state="translated">Tous les index de glyphe d'un cluster Glyphs obligatoires.</target>
+        <target state="translated">Tous les index de glyphe d'un cluster Glyphs sont obligatoires.</target>
         <note />
       </trans-unit>
       <trans-unit id="GlyphsTooManyCommas">
@@ -2010,7 +2010,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="GridCollection_DestArrayInvalidRank">
         <source>'{0}' destination is multidimensional. Expected array of rank 1.</source>
-        <target state="translated">Destination '{0}' multidimensionnelle. Tableau attendu de rang 1.</target>
+        <target state="translated">La destination '{0}' est multidimensionnelle. Tableau de rang 1 attendu.</target>
         <note />
       </trans-unit>
       <trans-unit id="GridCollection_InOtherCollection">
@@ -2080,7 +2080,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="HyperLinkTargetNotFound">
         <source>Hyperlink Target not found.</source>
-        <target state="translated">Hyperlink Target introuvable.</target>
+        <target state="translated">Cible du lien hypertexte introuvable.</target>
         <note />
       </trans-unit>
       <trans-unit id="HyphenatorDisposed">
@@ -2100,7 +2100,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="IconMustBeBitmapFrame">
         <source>ImageSource for Icon property must be an icon file.</source>
-        <target state="translated">ImageSource pour la propriété Icon doit être un fichier d'icône.</target>
+        <target state="translated">ImageSource pour la propriété Icon doit être un fichier icône.</target>
         <note />
       </trans-unit>
       <trans-unit id="IllegalTreeChangeDetected">
@@ -3650,7 +3650,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="ParserBadConstructorParams">
         <source>Cannot find public constructor for '{0}' that takes '{1}' arguments.</source>
-        <target state="translated">Impossible de localiser un constructeur public pour '{0}' qui accepte les arguments '{1}'.</target>
+        <target state="translated">Impossible de localiser un constructeur public pour '{0}' qui accepte '{1}' arguments.</target>
         <note />
       </trans-unit>
       <trans-unit id="ParserBadEncoding">
@@ -5125,7 +5125,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="Storyboard_TargetPropertyRequired">
         <source>Must specify TargetProperty for '{0}'.</source>
-        <target state="translated">Doit spécifier TargetProperty pour '{0}'.</target>
+        <target state="translated">TargetProperty doit être spécifié pour '{0}'.</target>
         <note />
       </trans-unit>
       <trans-unit id="Storyboard_UnableToFreeze">
@@ -5170,7 +5170,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="StringEmpty">
         <source>Parameter cannot be a zero-length string.</source>
-        <target state="translated">Le paramètre ne peut pas être une chaîne nulle.</target>
+        <target state="translated">Le paramètre ne peut pas être une chaîne vide.</target>
         <note />
       </trans-unit>
       <trans-unit id="StringIdOutOfSequence">
@@ -5190,12 +5190,12 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="StyleDataTriggerBindingHasBadValue">
         <source>'{0}' value for DataTrigger.Binding is not a Binding object.</source>
-        <target state="translated">Valeur '{0}' de DataTrigger.Binding n'est pas un objet Binding.</target>
+        <target state="translated">La valeur '{0}' de DataTrigger.Binding n'est pas un objet Binding.</target>
         <note />
       </trans-unit>
       <trans-unit id="StyleDataTriggerBindingMissing">
         <source>Must specify both Binding and Value for DataTrigger.</source>
-        <target state="translated">Spécification obligatoire de Binding et de Value pour DataTrigger.</target>
+        <target state="translated">Binding et Value doivent être spécifiés pour DataTrigger.</target>
         <note />
       </trans-unit>
       <trans-unit id="StyleForWrongType">
@@ -5210,7 +5210,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="StyleImpliedAndComplexChildren">
         <source>Cannot use both '{0}' tags and Style.'{1}' property tags for a single Style. Use one or the other.</source>
-        <target state="translated">Impossible d'utiliser à la fois les balises '{0}' et les balises de propriété Style.'{1}' pour un seul Style. Utilisez l'une des deux possibilités.</target>
+        <target state="translated">Impossible d'utiliser à la fois les balises '{0}' et les balises de propriété Style.'{1}' dans un même Style. Utilisez l'une des deux possibilités.</target>
         <note />
       </trans-unit>
       <trans-unit id="StyleInvalidElementTag">
@@ -5255,7 +5255,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="StyleNoTarget">
         <source>Cannot resolve the Style {0} '{1}'. Verify that the owning type is the Style's TargetType, or use Class.Property syntax to specify the {0}.</source>
-        <target state="translated">Impossible de résoudre le Style {0} '{1}'. Vérifiez que le type propriétaire est le TargetType de Style, ou utilisez la syntaxe Class.Property pour spécifier le {0}.</target>
+        <target state="translated">Impossible de résoudre le Style {0} '{1}'. Vérifiez que le type propriétaire est le TargetType du Style, ou utilisez la syntaxe Class.Property pour spécifier le {0}.</target>
         <note />
       </trans-unit>
       <trans-unit id="StyleNoTemplateBindInSetters">
@@ -5275,7 +5275,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="StylePropTriggerPropMissing">
         <source>Must specify both Property and Value for Trigger.</source>
-        <target state="translated">Doit spécifier à la fois Property et Value pour Trigger.</target>
+        <target state="translated">Property et Value doivent être spécifiés pour Trigger.</target>
         <note />
       </trans-unit>
       <trans-unit id="StylePropertyCustom">
@@ -5290,7 +5290,7 @@ Voulez-vous le remplacer ?</target>
       </trans-unit>
       <trans-unit id="StylePropertySetterMinAttrs">
         <source>Must specify both Property and Value for Setter.</source>
-        <target state="translated">Doit spécifier à la fois Property et Value pour Setter.</target>
+        <target state="translated">Property et Value doivent être spécifiés pour Setter.</target>
         <note />
       </trans-unit>
       <trans-unit id="StyleSetterUnknownProp">
